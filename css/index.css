@@ -1,0 +1,142 @@
+*
+{    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.page1
+{
+    width: 100%;
+    height: 100vh;
+    /* background-color: blue; */
+    background-image: url(imgs/Gemini_Generated_Image_uae6sduae6sduae6.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding: 0 35px;
+}
+
+.left-bottom
+{
+    width: 800px;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 7%;
+    /* left: 0; */
+
+    /* transform: translateY(-50%); */
+}
+.left-bottom h1
+{
+   font-family: "PPEditorialNew-Ultralight", -apple-system, BlinkMacSystemFont,
+   "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell,
+   "Helvetica Neue", sans-serif;
+  font-weight: 200;
+  font-size: 60px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 0px;
+}
+.left-bottom p
+{
+   
+    
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Beausite Classic Clear", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    color: rgb(255, 255, 255);
+    margin-bottom: 0px;
+}
+.shop-btn
+{
+    position: absolute;
+    bottom: 5%;
+    right: 35px;
+    /* right: 0; */
+    background-color: #FFFFFF ;
+    border: none;
+    color: #1e1c1c ;
+    padding: 7px 20px;
+    font-size: 0.85rem;
+    font-weight: 450;
+    border-radius: 7px;
+    text-decoration: none;
+}
+
+.shop-btn:hover {
+    background-color: #dfd5d5;
+    border: none;
+    color: #000000;
+}
+@media only screen and (max-width: 1090px)
+{
+  
+
+    .page1
+    {
+        background-image: url(imgs/Gemini_Generated_Image_uae6sduae6sduae6.png);
+        background-position: center;
+        
+        background-size: cover;
+        background-repeat: no-repeat;
+        flex-direction: column;
+
+        padding: 0px 20px;
+        
+    }
+    
+ 
+    
+    .left-bottom
+    {
+        width: auto;
+        bottom: 13%;
+    }
+   .left-bottom p
+   {
+    font-size: 13px;
+   }
+   .left-bottom h1
+   {
+    font-size: 25px;
+   }
+.shop-btn
+{
+    right: auto;
+    left: 20px;
+    bottom: 7%;
+   
+
+}
+body.page1 .infor-down
+{
+   display: none;
+}
+
+
+}
+
+@media only screen and (max-width: 1090px) and (orientation: landscape)
+{
+        .page1
+        {
+            background-image: url(imgs/Gemini_Generated_Image_uae6sduae6sduae6.png);
+            background-size: cover;
+            background-position: center;
+            padding: 0px 20px;
+            height: 100dvh;
+
+    
+        }
+    
+    .shop-btn
+{
+    right: auto;
+    left: 20px;
+    bottom: 0;
+}
+
+
+}
+
+
+
